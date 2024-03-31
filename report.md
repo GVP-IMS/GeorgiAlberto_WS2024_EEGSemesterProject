@@ -1,4 +1,4 @@
-# EEG Project - Symmetry Perception
+# EEG Project - Symmetry Perception by Alberto Saponaro (3422656) and Georgi Panayotov (3667327)
 
 In this project, our team attempted to partially recreate the symmetry perception and affective response experimental results of [Makin et al.](https://www.sciencedirect.com/science/article/abs/pii/S0028393212004307) More specifically, we are using the BIDS EEG data from their 1st experiment, where 24 subjects are presented with symmetrical and random patterns. We focused on event-related potentials (ERPs) and time-frequency representations (TFRs) and tried to recreate the pipeline using the Python MNE library.
 
