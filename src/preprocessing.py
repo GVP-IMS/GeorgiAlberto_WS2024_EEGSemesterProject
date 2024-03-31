@@ -91,7 +91,7 @@ def epoch_data(given_data, time_min, time_max, reject_criteria, debug_logs, debu
     
     # Reject bad trials (amplitude exceeds given ±μV)
     if reject_criteria:
-        epochs.drop_bad(reject = {'eeg': reject_criteria})
+        epochs.drop_bad(reject = {'eeg': reject_criteria}, verbose = debug_logs)
     
     # Sanity check
     if debug_images: epochs
