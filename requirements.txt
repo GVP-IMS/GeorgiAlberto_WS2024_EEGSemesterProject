@@ -1,0 +1,4 @@
+matplotlib==3.7.1
+mne==1.5.1
+mne_bids==0.13
+numpy==1.24.3
